@@ -1,0 +1,80 @@
+2022-07-08T02:50:40.007081000Z [/usr/local/bin/create-sftp-user] Parsing user data: "lab1:mypass:::shared-folder"
+2022-07-08T02:50:40.135906300Z [/usr/local/bin/create-sftp-user] Creating directory: /home/lab1/shared-folder
+2022-07-08T02:50:40.142734400Z Generating public/private ed25519 key pair.
+2022-07-08T02:50:40.142755500Z Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+2022-07-08T02:50:40.142760600Z Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+2022-07-08T02:50:40.142764800Z The key fingerprint is:
+2022-07-08T02:50:40.142768400Z SHA256:+ozKitbNx19LeNW0ZWMQmtDVZfk/p2tsWIPX4ei0xUY root@11b8dc8f1c73
+2022-07-08T02:50:40.142771700Z The key's randomart image is:
+2022-07-08T02:50:40.142774700Z +--[ED25519 256]--+
+2022-07-08T02:50:40.142778100Z |         .. .+o =|
+2022-07-08T02:50:40.142781700Z |          ..o .+ |
+2022-07-08T02:50:40.142785400Z |           o   ++|
+2022-07-08T02:50:40.142788700Z |              +E=|
+2022-07-08T02:50:40.142792200Z |        S    o=+o|
+2022-07-08T02:50:40.142794400Z |       .  . oo+*+|
+2022-07-08T02:50:40.142796400Z |  . o o  . +o=+oo|
+2022-07-08T02:50:40.142798500Z | o o o *  + oo=  |
+2022-07-08T02:50:40.142800500Z |o ..o.o +. . o.. |
+2022-07-08T02:50:40.142802600Z +----[SHA256]-----+
+2022-07-08T02:50:41.634407600Z Generating public/private rsa key pair.
+2022-07-08T02:50:41.634429900Z Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+2022-07-08T02:50:41.634434700Z Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+2022-07-08T02:50:41.634438300Z The key fingerprint is:
+2022-07-08T02:50:41.634441300Z SHA256:ggmSeVkynz1bgc4xUAIcdG0CK4o3olyhMZMF1vyjV0g root@11b8dc8f1c73
+2022-07-08T02:50:41.634444100Z The key's randomart image is:
+2022-07-08T02:50:41.634447000Z +---[RSA 4096]----+
+2022-07-08T02:50:41.634450400Z | =@==+...        |
+2022-07-08T02:50:41.634453700Z |.o+@.E*  .       |
+2022-07-08T02:50:41.634457500Z |===.==+o.        |
+2022-07-08T02:50:41.634460700Z |o+=..*o=         |
+2022-07-08T02:50:41.634464000Z |+.o.+ = S        |
+2022-07-08T02:50:41.634467400Z |oo.o . .         |
+2022-07-08T02:50:41.634470700Z |..  .            |
+2022-07-08T02:50:41.634473700Z |                 |
+2022-07-08T02:50:41.634476500Z |                 |
+2022-07-08T02:50:41.634479100Z +----[SHA256]-----+
+2022-07-08T02:50:41.636141800Z [/entrypoint] Executing sshd
+2022-07-08T02:50:41.646645400Z Server listening on 0.0.0.0 port 22.
+2022-07-08T02:50:41.646698900Z Server listening on :: port 22.
+2022-07-08T02:51:43.555543900Z Invalid user user from 172.17.0.1 port 32860
+2022-07-08T02:51:43.570525600Z Could not get shadow information for NOUSER
+2022-07-08T02:51:43.597412000Z Failed password for invalid user user from 172.17.0.1 port 32860 ssh2
+2022-07-08T02:51:43.629591300Z Connection closed by invalid user user 172.17.0.1 port 32860 [preauth]
+2022-07-08T02:51:57.501478400Z Accepted password for lab1 from 172.17.0.1 port 32864 ssh2
+2022-07-08T02:52:02.081985600Z Accepted password for lab1 from 172.17.0.1 port 32868 ssh2
+2022-07-08T03:09:37.631485800Z Accepted password for lab1 from 172.17.0.1 port 32874 ssh2
+2022-07-10T00:08:07.362174600Z Accepted password for lab1 from 172.17.0.1 port 32900 ssh2
+2022-07-10T00:23:04.886855100Z Connection closed by 172.17.0.1 port 32914 [preauth]
+2022-07-10T00:23:10.558837700Z Connection closed by 172.17.0.1 port 32918 [preauth]
+2022-07-10T00:23:16.716702600Z Connection closed by 172.17.0.1 port 32922 [preauth]
+2022-07-10T00:23:28.358958900Z Invalid user mypass from 172.17.0.1 port 32926
+2022-07-10T00:23:42.496210200Z Could not get shadow information for NOUSER
+2022-07-10T00:23:42.544973500Z Failed password for invalid user mypass from 172.17.0.1 port 32926 ssh2
+2022-07-10T00:23:50.154153100Z Connection closed by invalid user mypass 172.17.0.1 port 32926 [preauth]
+2022-07-10T00:23:56.996833500Z Accepted password for lab1 from 172.17.0.1 port 32930 ssh2
+2022-07-10T00:24:07.160859200Z Received disconnect from 172.17.0.1 port 32930:11: disconnected by user
+2022-07-10T00:24:07.160913900Z Disconnected from user lab1 172.17.0.1 port 32930
+2022-07-10T00:27:23.191308500Z Connection closed by authenticating user lab1 172.17.0.1 port 32934 [preauth]
+2022-07-10T00:31:41.559344800Z Connection closed by authenticating user lab1 172.17.0.1 port 32938 [preauth]
+2022-07-10T00:31:53.503447200Z Connection closed by authenticating user lab1 172.17.0.1 port 32942 [preauth]
+2022-07-10T00:32:25.516448900Z Connection closed by authenticating user lab1 172.17.0.1 port 32946 [preauth]
+2022-07-10T00:34:31.339884900Z Connection closed by authenticating user lab1 172.17.0.1 port 32950 [preauth]
+2022-07-10T00:35:22.949113500Z Connection closed by authenticating user lab1 172.17.0.1 port 32954 [preauth]
+2022-07-10T00:38:14.768799600Z Connection closed by authenticating user lab1 172.17.0.1 port 32958 [preauth]
+2022-07-10T00:40:26.144215200Z Connection closed by authenticating user lab1 172.17.0.1 port 32962 [preauth]
+2022-07-10T00:41:00.784321100Z Connection closed by authenticating user lab1 172.17.0.1 port 32966 [preauth]
+2022-07-10T00:41:47.894246400Z Accepted password for lab1 from 172.17.0.1 port 32970 ssh2
+2022-07-10T00:47:13.524156000Z Accepted password for lab1 from 172.17.0.1 port 32976 ssh2
+2022-07-10T00:47:23.051342100Z Connection closed by authenticating user lab1 172.17.0.1 port 32980 [preauth]
+2022-07-10T00:47:29.975230400Z Connection closed by authenticating user lab1 172.17.0.1 port 32984 [preauth]
+2022-07-10T00:47:35.222685200Z Failed password for lab1 from 172.17.0.1 port 32988 ssh2
+2022-07-10T00:47:35.226179700Z Connection closed by authenticating user lab1 172.17.0.1 port 32988 [preauth]
+2022-07-10T00:47:42.065797300Z Connection closed by authenticating user lab1 172.17.0.1 port 32992 [preauth]
+2022-07-10T00:47:48.486275500Z Accepted password for lab1 from 172.17.0.1 port 32996 ssh2
+2022-07-10T00:48:08.580863200Z Accepted password for lab1 from 172.17.0.1 port 33000 ssh2
+2022-07-10T00:48:15.427186500Z Accepted password for lab1 from 172.17.0.1 port 33004 ssh2
+2022-07-10T03:50:18.431155800Z Failed password for lab1 from 172.17.0.3 port 38304 ssh2
+2022-07-10T03:50:21.810124700Z Accepted password for lab1 from 172.17.0.3 port 38304 ssh2
+2022-07-10T03:50:23.747826900Z Received disconnect from 172.17.0.3 port 38304:11: disconnected by user
+2022-07-10T03:50:23.747909100Z Disconnected from user lab1 172.17.0.3 port 38304
