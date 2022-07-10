@@ -14,6 +14,5 @@ for log in logs:
     if date.hour >= 12 and date.hour < 13:
         connections.append(log)
 output = "\n".join(connections)
-print(output)
 output_file.write(output)
 output_file.close()
